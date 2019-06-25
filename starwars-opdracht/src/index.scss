@@ -1,0 +1,43 @@
+$list-space: 1%;
+$font-standard: Helmetica, arial;
+$font-sw: Star Jedi, arial;
+$primary-font-color: black;
+$secondary-font-color: white;
+$star-wars-font-color: yellow;
+$background-color-star-wars: #282828;
+$standard-border-radius: 8px;
+$image-height: 80%;
+$padding-image : 6%;
+
+
+body {
+  font-family: $font-standard;
+  color: $primary-font-color;
+}
+
+.star-wars-jumbotron {
+  font-family: $font-sw;
+  border-radius: $standard-border-radius;
+  background-color: $background-color-star-wars;
+  color: $star-wars-font-color;
+}
+
+img {
+  border-radius: $standard-border-radius;
+  height: $image-height;
+  padding: $padding-image;
+}
+
+.list-group {
+  border-radius: $standard-border-radius;
+  background-color: $background-color-star-wars;
+  padding-bottom: $list-space;
+
+  li {
+    margin: $list-space;
+    color: $secondary-font-color;
+    border-color: $star-wars-font-color;
+    background-color: $background-color-star-wars;
+  }
+
+}

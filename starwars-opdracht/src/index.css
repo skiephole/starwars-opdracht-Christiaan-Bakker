@@ -1,0 +1,31 @@
+body {
+  font-family: Helmetica, arial;
+  color: black;
+}
+
+.star-wars-jumbotron {
+  font-family: Star Jedi, arial;
+  border-radius: 8px;
+  background-color: #282828;
+  color: yellow;
+}
+
+img {
+  border-radius: 8px;
+  height: 80%;
+  padding: 6%;
+}
+
+.list-group {
+  border-radius: 8px;
+  background-color: #282828;
+  padding-bottom: 1%;
+}
+.list-group li {
+  margin: 1%;
+  color: white;
+  border-color: yellow;
+  background-color: #282828;
+}
+
+/*# sourceMappingURL=index.css.map */
